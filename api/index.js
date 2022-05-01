@@ -9,7 +9,7 @@ const userRoute = require("./routes/user");
 const authRoute = require("./routes/auth");
 const categoryRoute = require("./routes/category");
 const productRoute = require("./routes/product");
-// const testRoute = require("./routes/test");
+
 dotenv.config();
 
 mongoose
@@ -45,7 +45,7 @@ app.use("/api/users", userRoute);
 app.use("/api/categories", categoryRoute);
 app.use("/api/products", productRoute);
 
-app.use(express.static(path.join(__dirname, "/client")));
+app.use(express.static(path.join(__dirname, "/client/build")));
 
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "/client/build", "index.html"));
