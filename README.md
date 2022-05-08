@@ -11,5 +11,3 @@ Link: https://nodejs.org/en/
 ## Khởi động chương trình
 1. Sau khi cài đặt hoàn tất npm và các thư viện thì tại folder api phát lệnh npm start để chạy server. Server chạy thành công sẽ xuất hiện hai dòng thông báo "Backend server is running" "DB connection successfull" trên command prompt. Chạy server trước để tương tác với cơ sở dữ liệu cung cấp cho client 
 2. Phát lệnh npm start tại folder client để chạy giao diện client
-
-# 2. Cấu hình cài đặt
