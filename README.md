@@ -1,2 +1,2 @@
-#Hướng dẫn cài đặt
+Hướng dẫn cài đặt
 thực tập tốt nghiệp
